@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	font-family: 'Satisfy', cursive;
+}
+
+.cover {
+	 display: flex;
+	 flex-wrap: wrap;
+	 background-image: url("../images/intro-1.jpg");
+	 background-size: cover;
+	 font-family: 'Satisfy', cursive;
+	 color: white;
+	 justify-content: center;
+	 align-items: center;
+	 min-height: 70vh;
+	 font-size: 3em;
+}
+
+h1 {
+	text-align: center;
+	margin: 5%;
+}
+
+h2 {
+	font-size: 2.5em;
+	margin-top: 0;
+}
+
+.container {
+	margin: 5%;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	height:30vh;
+}
+
+.content {
+	font-family: 'Satisfy', cursive;
+	font-size: 2em;
+	margin: 0;
+}
+
+.heading {
+
+
+}
+
+#about-us {
+	height: auto;
+}
