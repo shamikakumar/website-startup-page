@@ -4,16 +4,15 @@ body {
 }
 
 .cover {
-	 display: flex;
-	 flex-wrap: wrap;
-	 background-image: url("../images/intro-1.jpg");
-	 background-size: cover;
-	 font-family: 'Satisfy', cursive;
-	 color: white;
-	 justify-content: center;
-	 align-items: center;
-	 min-height: 70vh;
-	 font-size: 3em;
+	display: flex;
+	flex-wrap: wrap;
+	background-image: url("../images/intro.jpg");
+	background-size: cover;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	min-height: 70vh;
+	font-size: 3em;
 }
 
 h1 {
@@ -24,6 +23,7 @@ h1 {
 h2 {
 	font-size: 2.5em;
 	margin-top: 0;
+	text-align: center;
 }
 
 .container {
@@ -31,20 +31,65 @@ h2 {
 	display:flex;
 	flex-direction: column;
 	align-items: center;
-	height:30vh;
+	width: 90%;
 }
 
-.content {
-	font-family: 'Satisfy', cursive;
+#content {
 	font-size: 2em;
 	margin: 0;
 }
 
-.heading {
-
-
-}
 
 #about-us {
 	height: auto;
+}
+
+#gallery {
+	width: 100%;
+	margin: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	
+
+}
+
+.galleryimg{
+	align-self: center;
+	opacity:0.7;
+	max-width:24em;
+	max-height: 24em;
+	padding:20px;
+	transition: all .2s ease-in-out;
+}
+
+.galleryimg:hover{
+	opacity:1;
+	transform: scale(1.1);
+
+}
+
+#contact-us{
+	text-decoration: none;
+	color: black;
+}
+
+#mc_embed_signup{
+	clear: left;
+	width: 100%;
+	text-align: center;
+}
+
+#email {
+	padding: 10px;
+	font-size: 1em;
+	font-family: 'Satisfy', cursive;
+	width: 30%;
+}
+
+@media screen and (max-width: 600px) {
+	#email {
+		width: 90%;
+	}
 }
